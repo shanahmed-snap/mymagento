@@ -7,7 +7,7 @@
  */
 
 use Magento\Framework\App\Bootstrap;
-
+phpinfo();
 try {
     require __DIR__ . '/../app/bootstrap.php';
 } catch (\Exception $e) {
